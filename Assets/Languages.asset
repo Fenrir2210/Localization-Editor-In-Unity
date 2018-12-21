@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a919fecff64e9724b8e4d3406b023319, type: 3}
+  m_Name: Languages
+  m_EditorClassIdentifier: 
+  LanguageList:
+  - Language: English
+    KeyValuePairs:
+    - Key: OPTION_1A
+      Value: I've been at home watching Big Brother.
+    - Key: OPTION_1B
+      Value: I've been here the whole time!
+    - Key: OPTION_2A
+      Value: Voted Out? I just watch it for the drama!
+    - Key: OPTION_3A
+      Value: I'm actually surprised you notice me at all.
+    - Key: OPTION_3B
+      Value: Are those cataracts?
+    - Key: OPTION_CONTINUE
+      Value: <CONTINUE>
+    - Key: OPTION_RESTART
+      Value: <RESTART>
+    - Key: OPTION_END
+      Value: <END>
+  - Language: French
+    KeyValuePairs:
+    - Key: TITLE_OF_GAME
+      Value: OUI OUI
+    - Key: TITLE_OF_GAME
+      Value: OUI OUI
+  - Language: Afrikaans
+    KeyValuePairs:
+    - Key: TITLE_OF_GAME
+      Value: I dont know Afrikaans

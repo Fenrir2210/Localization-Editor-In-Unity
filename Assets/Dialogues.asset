@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0c403fddfd40b942a5d48ac8d305db4, type: 3}
+  m_Name: Dialogues
+  m_EditorClassIdentifier: 
+  LocalizedData: {fileID: 11400000, guid: 98f0503edbfab2241b119f2bf837a171, type: 2}
+  DialogueList:
+  - DialogueBoxName: Dialog1
+    DialogueContents: Where have you been?
+    DialogueOptions:
+    - Key: OPTION_1A
+      DialogueToGoTo: Dialog2
+    - Key: OPTION_1B
+      DialogueToGoTo: Dialog3
+  - DialogueBoxName: Dialog2
+    DialogueContents: Oh yeah, who got voted out?
+    DialogueOptions:
+    - Key: OPTION_2A
+      DialogueToGoTo: Dialog4
+  - DialogueBoxName: Dialog3
+    DialogueContents: Am I Just Blind?
+    DialogueOptions:
+    - Key: OPTION_3A
+      DialogueToGoTo: Dialog5
+    - Key: OPTION_3B
+      DialogueToGoTo: Dialog6
+  - DialogueBoxName: Dialog4
+    DialogueContents: Sure, its the "drama"
+    DialogueOptions:
+    - Key: OPTION_END
+      DialogueToGoTo: Dialog4
+    - Key: OPTION_RESTART
+      DialogueToGoTo: Dialog1
+  - DialogueBoxName: Dialog5
+    DialogueContents: Uhhh...
+    DialogueOptions:
+    - Key: OPTION_CONTINUE
+      DialogueToGoTo: Dialog2
+  - DialogueBoxName: Dialog6
+    DialogueContents: Come on, Im not THAT old!
+    DialogueOptions:
+    - Key: OPTION_RESTART
+      DialogueToGoTo: Dialog1
